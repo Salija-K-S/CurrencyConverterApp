@@ -1,6 +1,6 @@
-You can download the apk <a href="https://www.google.com/" target="_blank">here</a></br>
 
-## CurrencyConverterApp </br> 
+
+## CurrencyConverterApp  
 A sample application to calculate the exchange rate from one currency to another using "Exchange Rate API" and volley library.   </br> </br>
 
 ## References
@@ -13,9 +13,9 @@ https://exchangeratesapi.io/ </br>
 https://exchangeratesapi.io/documentation/ </br>
 
  
-## Usage </br> 
+## Usage
 Foreign exchange rates API with currency conversion - https://exchangeratesapi.io/  </br> 
 1. Get the latest foreign exchange reference rates. </br>
 
-## Dependencies </br>
+## Dependencies 
 implementation 'com.android.volley:volley:1.2.0'
