@@ -18,7 +18,7 @@ import java.util.*
 
 
 class SplashScreenActivity : AppCompatActivity() {
-    var AppConstants = com.assignment.currencyconverterapp.AppConstants()
+    var AppConstants = AppConstants()
     private var ok_dialogbuilder: AlertDialog.Builder? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +30,6 @@ class SplashScreenActivity : AppCompatActivity() {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-
 
         Handler().postDelayed({
             if (AppFunctions.checkIfNetworkExist(this)) {
